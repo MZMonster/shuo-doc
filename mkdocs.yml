@@ -1,0 +1,29 @@
+site_name: Shuo
+
+repo_url: https://github.com/MZMonster/shuo
+
+docs_dir: docs
+
+site_dir: gh-pages
+
+copyright: 'Copyright (c) 2016 MZMonster'
+
+theme: 'material'
+
+pages:
+
+- 'Introduce': 'index.md'
+
+# meterial options
+extra:
+  palette:
+    primary: 'blue'
+    accent: 'light blue'
+  font: 'none'
+
+markdown_extensions:
+  - codehilite(css_class=code)
+  - admonition
+  - toc:
+      permalink: '#'
+
