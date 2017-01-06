@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="no-js ie6"><![endif]-->
+<!--[if IE 7 ]><html class="no-js ie7"><![endif]-->
+<!--[if IE 8 ]><html class="no-js ie8"><![endif]-->
+<!--[if IE 9 ]><html class="no-js ie9"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html class="no-js"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1">
+    
+      
+        <title>Shuo</title>
+      
+      
+      
+      
+    
+    <meta property="og:url" content="None">
+    <meta property="og:title" content="Shuo">
+    <meta property="og:image" content="None/./">
+    <meta name="apple-mobile-web-app-title" content="Shuo">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    
+    
+    <link rel="shortcut icon" type="image/x-icon" href="./assets/images/favicon-e565ddfa3b.ico">
+    <link rel="icon" type="image/x-icon" href="./assets/images/favicon-e565ddfa3b.ico">
+    <style>
+      @font-face {
+      	font-family: 'Icon';
+      	src: url('./assets/fonts/icon.eot?52m981');
+      	src: url('./assets/fonts/icon.eot?#iefix52m981')
+               format('embedded-opentype'),
+      		   url('./assets/fonts/icon.woff?52m981')
+               format('woff'),
+      		   url('./assets/fonts/icon.ttf?52m981')
+               format('truetype'),
+      		   url('./assets/fonts/icon.svg?52m981#icon')
+               format('svg');
+      	font-weight: normal;
+      	font-style: normal;
+      }
+    </style>
+    <link rel="stylesheet" href="./assets/stylesheets/application-a422ff04cc.css">
+    
+      <link rel="stylesheet" href="./assets/stylesheets/palettes-05ab2406df.css">
+    
+    
+    
+    <script src="./assets/javascripts/modernizr-4ab42b99fd.js"></script>
+    
+  </head>
+  
+  
+  
+  <body class="palette-primary-blue palette-accent-light-blue">
+    
+      
+      
+    
+    <div class="backdrop">
+      <div class="backdrop-paper"></div>
+    </div>
+    <input class="toggle" type="checkbox" id="toggle-drawer">
+    <input class="toggle" type="checkbox" id="toggle-search">
+    <label class="toggle-button overlay" for="toggle-drawer"></label>
+    <header class="header">
+      <nav aria-label="Header">
+  <div class="bar default">
+    <div class="button button-menu" role="button" aria-label="Menu">
+      <label class="toggle-button icon icon-menu" for="toggle-drawer">
+        <span></span>
+      </label>
+    </div>
+    <div class="stretch">
+      <div class="title">
+        
+          <span class="path">
+            
+          </span>
+        
+        Shuo
+      </div>
+    </div>
+    
+    
+    <div class="button button-search" role="button" aria-label="Search">
+      <label class="toggle-button icon icon-search" title="Search" for="toggle-search"></label>
+    </div>
+  </div>
+  <div class="bar search">
+    <div class="button button-close" role="button" aria-label="Close">
+      <label class="toggle-button icon icon-back" for="toggle-search"></label>
+    </div>
+    <div class="stretch">
+      <div class="field">
+        <input class="query" type="text" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck>
+      </div>
+    </div>
+    <div class="button button-reset" role="button" aria-label="Search">
+      <button class="toggle-button icon icon-close" id="reset-search"></button>
+    </div>
+  </div>
+</nav>
+    </header>
+    <main class="main">
+      
+      <div class="drawer">
+        <nav aria-label="Navigation">
+  
+  <a href="https://github.com/MZMonster/shuo" class="project">
+    <div class="banner">
+      
+      <div class="name">
+        <strong>
+          Shuo
+          <span class="version">
+            
+          </span>
+        </strong>
+        
+          <br>
+          MZMonster/shuo
+        
+      </div>
+    </div>
+  </a>
+  <div class="scrollable">
+    <div class="wrapper">
+      
+        <ul class="repo">
+          <li class="repo-download">
+            
+            <a href="https://github.com/MZMonster/shuo/archive/master.zip" target="_blank" title="Download" data-action="download">
+              <i class="icon icon-download"></i> Download
+            </a>
+          </li>
+          <li class="repo-stars">
+            <a href="https://github.com/MZMonster/shuo/stargazers" target="_blank" title="Stargazers" data-action="star">
+              <i class="icon icon-star"></i> Stars
+              <span class="count">&ndash;</span>
+            </a>
+          </li>
+        </ul>
+        <hr>
+      
+      <div class="toc">
+        <ul>
+          
+            
+  <li>
+    <a class="current" title="Introduce" href=".">
+      Introduce
+    </a>
+    
+      
+        
+      
+      
+    
+  </li>
+
+          
+        </ul>
+        
+      </div>
+    </div>
+  </div>
+</nav>
+      </div>
+      <article class="article">
+        <div class="wrapper">
+          
+          <h1 id="shuo">shuo<a class="headerlink" href="#shuo" title="Permanent link">#</a></h1>
+<p>评论系统</p>
+<h1 id="_1">需求<a class="headerlink" href="#_1" title="Permanent link">#</a></h1>
+<ul>
+<li>发表、查询、删除 评论</li>
+<li>创建、查询、删除、更新载体</li>
+<li>同步用户</li>
+<li>单点登录</li>
+<li>导入、导出评论数据</li>
+<li>评论回推</li>
+<li>审核机制</li>
+<li>垃圾评论过滤</li>
+<li>点赞系统</li>
+<li>统计功能，可视化</li>
+<li>管理员后台</li>
+<li>管理员角色系统</li>
+<li>前端评论组件机制</li>
+<li>前端皮肤机制</li>
+</ul>
+<h1 id="v-000">V 0.0.0<a class="headerlink" href="#v-000" title="Permanent link">#</a></h1>
+<h2 id="_2">项目搭建<a class="headerlink" href="#_2" title="Permanent link">#</a></h2>
+<ul>
+<li>Sails + MySQL</li>
+<li>ES6 + Babel</li>
+<li>CircleCI Or TravisCI</li>
+<li>Reviewable</li>
+</ul>
+<h1 id="v-001">V 0.0.1<a class="headerlink" href="#v-001" title="Permanent link">#</a></h1>
+<h2 id="_3">实现需求<a class="headerlink" href="#_3" title="Permanent link">#</a></h2>
+<ul>
+<li>用户数据同步</li>
+<li>评论发表、查找、删除</li>
+<li>Thread创建、查找、更新、删除</li>
+<li>用户登录与授权</li>
+<li>数据导入、导出（包括评论、Thread）</li>
+<li>评论回推</li>
+</ul>
+<h2 id="_4">涉及模块<a class="headerlink" href="#_4" title="Permanent link">#</a></h2>
+<ul>
+<li>用户模块</li>
+</ul>
+          <aside class="copyright" role="note">
+            
+              Copyright (c) 2016 MZMonster &ndash;
+            
+            Documentation built with
+            <a href="http://www.mkdocs.org" target="_blank">MkDocs</a>
+            using the
+            <a href="http://squidfunk.github.io/mkdocs-material/" target="_blank">
+              Material
+            </a>
+            theme.
+          </aside>
+          
+            <footer class="footer">
+              
+            </footer>
+          
+        </div>
+      </article>
+      <div class="results" role="status" aria-live="polite">
+        <div class="scrollable">
+          <div class="wrapper">
+            <div class="meta"></div>
+            <div class="list"></div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script>
+      var base_url = '.';
+      var repo_id  = 'MZMonster/shuo';
+    </script>
+    <script src="./assets/javascripts/application-997097ee0c.js"></script>
+    
+    
+  </body>
+</html>
